@@ -15,7 +15,7 @@
 	"license": "MIT",
 	"peerDependencies": {
 		"eslint": "^8.15.0"
-	}
+	},
 	"dependencies": {
 		"eslint-config-problems": "^6.0.0",
 		"eslint-plugin-import": "^2.26.0",
