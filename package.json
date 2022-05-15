@@ -4,7 +4,8 @@
 	"description": "an eslint config package used by galaxia projects.",
 	"main": "index.js",
 	"scripts": {
-		"lint": "pnpm eslint -c index.js index.js"
+		"lint": "pnpm eslint -c index.js index.js",
+		"fixlint": "pnpm eslint -c index.js index.js --fix"
 	},
 	"keywords": [
 		"eslint",

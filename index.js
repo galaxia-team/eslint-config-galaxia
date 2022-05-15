@@ -5,9 +5,9 @@ module.exports = {
 		'node': true,
 	},
 	'extends': [
-		'problems',
 		'plugin:optimize-regex/recommended',
 		'plugin:import/recommended',
+		'problems',
 	],
 	'plugins': [
 		'simple-import-sort',
@@ -15,21 +15,21 @@ module.exports = {
 		'import',
 	],
 	'parserOptions': {
-		'ecmaVersion': '2021',
 		'sourceType': 'module',
+		'ecmaVersion': '2021',
 	},
 	'rules': {
 		'simple-import-sort/imports': [ 'error' ],
 		'simple-import-sort/exports': [ 'error' ],
 		'class-methods-use-this': [ 'off' ],
-		'object-curly-spacing': [ 'error', 'always', {
-			'objectsInObjects': true,
-			'arraysInObjects': true,
-		} ],
 		'array-bracket-spacing': [ 'error', 'always', {
 			'objectsInArrays': true,
 			'arraysInArrays': true,
 			'singleValue': true,
+		} ],
+		'object-curly-spacing': [ 'error', 'always', {
+			'objectsInObjects': true,
+			'arraysInObjects': true,
 		} ],
 		'no-param-reassign': [ 'off' ],
 		'comma-dangle': [ 'error', 'always-multiline' ],
