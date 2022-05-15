@@ -38,5 +38,6 @@ module.exports = {
 		'no-tabs': [ 'off' ],
 		'indent': [ 'off' ],
 		'quotes': [ 'error', 'single', { 'avoidEscape': true, 'allowTemplateLiterals': true } ],
+		'semi': [ 'error' ],
 	},
-}
+};
