@@ -1,0 +1,22 @@
+{
+	"name": "eslint-config-galaxia",
+	"version": "1.0.0",
+	"description": "an eslint config package used by galaxia projects.",
+	"main": "index.js",
+	"scripts": {
+		"lint": "pnpm eslint -c index.js index.js"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config"
+	],
+	"author": "galaxia",
+	"license": "MIT",
+	"dependencies": {
+		"eslint": "^8.15.0",
+		"eslint-config-problems": "^6.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-optimize-regex": "^1.2.1",
+		"eslint-plugin-simple-import-sort": "^7.0.0"
+	}
+}

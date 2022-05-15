@@ -1,2 +1,2 @@
 # eslint-config-galaxia
-an eslint config package used by galaxia projects
+an eslint config package used by galaxia projects.
